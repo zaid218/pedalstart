@@ -16,7 +16,7 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Header />
-        <div className="flex">
+        <div className="flex flex-col sm:flex-row">
           <Sidebar />
           <main className="flex-1 p-4">
             <Routes>
