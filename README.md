@@ -1,7 +1,7 @@
 
 # Task Management Application
 
-watch the live deployed website on :https://effortless-empanada-a3a5e6.netlify.app/
+watch the live deployed website on :https://pedalstart-pied.vercel.app/
 
 the backend is deployed on :https://pedalstart-3lsy.onrender.com/api
 
