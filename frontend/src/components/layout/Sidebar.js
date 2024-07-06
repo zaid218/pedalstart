@@ -6,7 +6,7 @@ const Sidebar = () => {
     const isAuthenticated = useSelector((state) => state.auth.token !== null);
 
     return (
-        <aside className="w-full sm:w-64 bg-gray-100 p-4">
+        <aside className="w-full sm:w-64 bg-gray-100 p-4 mt-16 sm:mt-0"> {/* Added margin-top for non-sm screens */}
             <nav>
                 <ul>
                     <li className="mb-2">

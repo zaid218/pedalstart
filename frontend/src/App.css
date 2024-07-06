@@ -16,6 +16,38 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* App.css or a specific CSS file for Header component */
+
+/* App.css or a specific CSS file for Header component */
+
+/* Ensure the header is fixed at the top */
+/* App.css or a specific CSS file for Header component */
+
+/* Ensure the header is fixed at the top */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the header stays above other content */
+}
+
+/* Adjust the sidebar to start below the header */
+aside {
+  margin-top: 4rem; /* Adjust this value based on the height of your header */
+}
+
+/* Add padding to the top of the main content to prevent it from being hidden behind the fixed header */
+main {
+  padding-top: 4rem; /* Adjust this value based on the height of your header */
+}
+
+/* Additional CSS for larger screens */
+@media (min-width: 640px) {
+  .sm\:mt-0 {
+    margin-top: 69px; /* Adjust this value based on your header height */
+  }
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
